@@ -9,7 +9,7 @@ services:
     networks:
      - appnet
   php:
-    image: shippingdocker/php:latest
+    image: gorkau/php7:latest
     volumes:
      - ./application:/var/www/html
     networks:
